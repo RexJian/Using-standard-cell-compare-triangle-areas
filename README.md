@@ -2,9 +2,18 @@
 
 In the lab, I calculate the areas of two triangles using their base and height. Subsequently, the output includes the area and the hypotenuse of the triangle with the larger area. Furthermore, the design utilizes structural-level descriptions rather than behavioral expressions
 
-## Structure Diagram
-#### Goal : Define a task called reset() to reset the DUT per spec
+## Architecure
 <p align="center">
-  <img src="https://github.com/RexJian/SystemVerilogLabs/blob/main/Lab1/ArchitectureLab1.png" width="400" height="360" alt="Lab1 Architecture">
-  <br> <strong>Fig1.  Lab1 Architecture</strong>
+  <img src="https://github.com/RexJian/Using-standard-cell-compare-triangle-areas/blob/main/Architecture.png" width="500" height="180" alt="Architecture">
+  <br> <strong>Fig1. Architecture</strong>
 </p> 
+
+a : First triangle base  
+b : First triangle height  
+c : First triangle hypotenuse  
+d : Second triangle base  
+e : Second triangle height  
+f : Second triangle hypotenuse  
+
+## Multiplier Design
+#### Use serveral full adders and half adders to compose a 9-bits binary multiplier. The following image is the instance of 4-bits binary multiplier.
