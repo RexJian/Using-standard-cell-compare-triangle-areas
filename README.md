@@ -2,7 +2,12 @@
 
 In the lab, I calculate the areas of two triangles using their base and height. Subsequently, the output includes the area and the hypotenuse of the triangle with the larger area. Furthermore, the design utilizes structural-level descriptions rather than behavioral expressions
 
-## Architecure
+## Table of Content
+- [Architecture](#architecture)
+- [Circuit Block Design](#circuit-block-design)
+  - [Binary Multiplier](#binary-multiplier)
+
+## Architecture
 <p align="center">
   <img src="https://github.com/RexJian/Using-standard-cell-compare-triangle-areas/blob/main/Architecture.png" width="600" height="220" alt="Architecture">
   <br> <strong>Fig1. Architecture</strong>
