@@ -6,6 +6,8 @@ In the lab, I calculate the areas of two triangles using their base and height. 
 - [Architecture](#architecture)
 - [Circuit Block Design](#circuit-block-design)
   - [Binary Multiplier](#binary-multiplier)
+  - [Comparator and Subtractor](#comparator-and-subtractor)
+  - [Shift Right](#shift-right)
 
 ## Architecture
 <p align="center">
@@ -30,7 +32,7 @@ f[8:0] : Second triangle hypotenuse
 </p>
   
 
-### Comparator / Subtractor
+### Comparator and Subtractor
 ##### If we wish to compare variables A and B to determine which one is larger, we can examine the sign bit using a subtractor. When we perform the operation A subtract B, we initially XOR A's bits with 0 and B's bits with 1. Then, both variables need to extend a sign bit. Finally, after adding them together, we obtain the final result. If A is greater than B, the sign bit of the result is 0; conversely, if B is greater, it is 1.
 <p align="center">
   <img src="https://github.com/RexJian/Using-standard-cell-compare-triangle-areas/blob/main/SubtractorArchitecture.png" width="700" height="200" alt="Subtractor architecture">
