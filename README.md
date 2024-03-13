@@ -25,8 +25,8 @@ f[8:0] : Second triangle hypotenuse
 </p>
   
 
-### Subtractor
-##### If the equation is A subtract B, A's bits are XOR with 0 and B's bits are XOR with 1 initially. Next, both of them need to extend a sign bit. Finally, after adding them together, I can obtain the final result.
+### Comparator / Subtractor
+##### If we wish to compare variables A and B to determine which one is larger, we can examine the sign bit using a subtractor. When we perform the operation A subtract B, we initially XOR A's bits with 0 and B's bits with 1. Then, both variables need to extend a sign bit. Finally, after adding them together, we obtain the final result. If A is greater than B, the sign bit of the result is 0; conversely, if B is greater, it is 1.
 <p align="center">
   <img src="https://github.com/RexJian/Using-standard-cell-compare-triangle-areas/blob/main/SubtractorArchitecture.png" width="700" height="200" alt="Subtractor architecture">
   <br> <strong>Fig3. Subtractor architecture</strong>
