@@ -31,3 +31,10 @@ f[8:0] : Second triangle hypotenuse
   <img src="https://github.com/RexJian/Using-standard-cell-compare-triangle-areas/blob/main/SubtractorArchitecture.png" width="700" height="200" alt="Subtractor architecture">
   <br> <strong>Fig3. Subtractor architecture</strong>
 </p>
+
+### Shift Right
+##### To achieve the shifting right effect, use multiple buffers. Like the following diagram.
+<p align="center">
+  <img src="https://github.com/RexJian/Using-standard-cell-compare-triangle-areas/blob/main/ShiftRightArchitecture.png" width="400" height="500" alt="Shift right architecture">
+  <br> <strong>Fig4. Shift right architecture</strong>
+</p>
