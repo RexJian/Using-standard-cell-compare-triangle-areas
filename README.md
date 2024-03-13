@@ -17,4 +17,9 @@ f[8:0] : Second triangle hypotenuse
 
 ## Circuit Block Design
 ### Binary Multiplier
-##### Use serveral full adders and half adders to compose a 9-bits binary multiplier. The following image is the instance of 4-bits binary multiplier.
+##### Use serveral full adders and half adders to compose a 9-bits binary multiplier. The following image is the instance of a 4-bit binary multiplier.
+<p align="center">
+  <img src="https://github.com/RexJian/Using-standard-cell-compare-triangle-areas/blob/main/Multiplier4Bits_Architecture.png" width="600" height="500" alt="4-bit binary architecture">
+  <br> <strong>Fig2. 4-bit binary multiplier architecture</strong>
+</p>
+
