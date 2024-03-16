@@ -22,7 +22,7 @@ c[8:0] : First triangle hypotenuse
 d[8:0] : Second triangle base  
 e[8:0] : Second triangle height  
 f[8:0] : Second triangle hypotenuse  
-out[16:0] : Bigger triangle area
+out[16:0] : Bigger triangle area  
 max[8:0] : Hypotenuse of bigger area triangle  
 
 ## Simulate Waveform
