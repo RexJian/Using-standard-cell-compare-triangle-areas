@@ -26,10 +26,18 @@ out[16:0] : Bigger triangle area
 max[8:0] : Hypotenuse of bigger area triangle  
 
 ## Simulate Waveform
-<p align="center">
-  <img src="https://github.com/RexJian/Using-standard-cell-compare-triangle-areas/blob/main/wave.png" width="1300" height="150" alt="wave">
-  <br> <strong>Fig2. Simulate Waveform</strong>
-</p> 
+<strong> Condition1:</strong>   
+If the area of the second triangle is larger than that of the first one, it will output the second triangle's area and its hypotenuse.
+<p align="left">
+  <img src="https://github.com/RexJian/Using-standard-cell-compare-triangle-areas/blob/main/Wave/wave1.png" width="500" height="220">
+</p>
+
+<strong> Condition2:</strong>   
+If the area of the first triangle is larger than that of the second one, it will output the first triangle's area and its hypotenuse.
+<p align="left">
+  <img src="https://github.com/RexJian/Using-standard-cell-compare-triangle-areas/blob/main/Wave/wave2.png" width="500" height="220">
+</p>
+
 
 ## Circuit Block Design
   
